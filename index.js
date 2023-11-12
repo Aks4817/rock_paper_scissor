@@ -1,13 +1,13 @@
 console.log("ila");
 
-const buttons=document.querySelectorAll('.btn')
+const buttons=document.querySelectorAll('body')
 console.log(buttons);
 
-buttons.forEach((button) => {
-    button.addEventListener('click',()=>{
-        alert(button.id);
-    });
-});
+// buttons.forEach((button) => {
+//     button.addEventListener('click',()=>{
+//         alert(button.id);
+//     });
+// });
 
 // const optio=["Rock","Paper","Scissors"];
 // const score=[0,0];
