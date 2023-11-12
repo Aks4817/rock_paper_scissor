@@ -1,12 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <script src="index.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
+<header>
+    Rock Paper Scissors
+</header>
+
 <body>
-    
+    <div class="board">
+        <div id="round_result">Choose your weapon</div>
+        <div class="result_desc">First to score 5 points wins the game</div>
+        <div class="choice">
+            <div id="player">
+                <div class="choice_block" id="player_choice">?</div>
+                <div class="scores">Player:<span id="player_score">0</span></div>
+            </div>
+            <div class="Computer">
+                <div class="choice_block" id="computer_choice">?</div>
+                <div class="scores">Computer:<span id="computer_score">0</span></div>
+            </div>
+        </div>
+        <div class="choices">
+            <button class='btn' id="rock"><div class="sign">✊</div></button>
+            <button class='btn' id="paper"><div class="sign">✋</div></button>
+            <button class='btn' id="scissors"><div class="sign">✌️</div></button>
+
+        </div>
+    </div>
 </body>
+
 </html>
