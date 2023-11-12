@@ -44,7 +44,7 @@ header{
     font-size: 25px;
 }
 
-#rock,#paper,#scissors{
+.btn{
     background-color: #1b232e;
     margin: 5px; 
     
